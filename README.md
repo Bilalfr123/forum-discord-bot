@@ -1,21 +1,16 @@
 
-# Discord Forum Bot
+## WHAT DOES THE BOT DO?
 
-A discord bot that will send a customized message on each newly created thread
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`TOKEN`
-
-`MONGO_URI`
+A discord bot that will send a customized message on each newly created thread. Automation :)
 
 
-## Documentation
+## Video tutorial
 
-Install `nodejs` on your system.
-Setup your environment variables.
-Run `npm install` then `node index`.
+Wanna see how bot works actually? Watch the video on my [Twitter]() or [Linkedin]() or [Facebook]().
+
+## Installation
+
+Refer to my general guide on how to run the bot [here](https://github.com/bilal-the-dev/How-to-run-my-discord-bots)
+
+If you still face any problem, please open a issue.
 
