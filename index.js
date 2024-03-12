@@ -4,11 +4,7 @@ const { DefaultCommands } = WOK;
 const path = require("path");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const { createClient } = require("redis");
 dotenv.config({ path: "./.env" });
-const redisClient = createClient();
-
-redisClient.on("error", (err) => console.log("Redis Client Error", err));
 
 const client = new Client({
 	intents: [
